@@ -6,10 +6,10 @@ function preload() {
 
     game.load.image('bullet', 'laser.png');
     game.load.image('enemyBullet', 'laserRed.png');
-    game.load.spritesheet('invader', 'enemyGreen.png', 32, 32);
+    game.load.image('invader', 'enemyGreen.png');
     game.load.image('ship', 'playerShip.png');
-    game.load.spritesheet('kaboom', 'assets/games/invaders/explode.png', 128, 128);
-    game.load.image('starfield', 'assets/games/invaders/starfield.png');
+    game.load.spritesheet('kaboom', 'explosion.png', 256, 256);
+    game.load.image('starfield', 'starfield.png');
     game.load.image('background', 'background.png');
 
 }
